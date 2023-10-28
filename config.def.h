@@ -5,7 +5,7 @@ static int topbar = 1; /* -b  option; if 0, dmenu appears at bottom     */
 static int incremental = 0; /* -r  option; if 1, outputs text each time a key is pressed */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const int user_bh = 6; /* add an defined amount of pixels to the bar height */
-static const char *fonts[] = {"sans:size=9"};
+static const char *fonts[] = {"sans:size=8"};
 static const char *prompt = NULL; /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
     /*     fg         bg       */
